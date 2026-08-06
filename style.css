@@ -983,6 +983,12 @@ body[data-theme="light"] .portrait-overlay-soft {
     linear-gradient(140deg, #0d1e22, #17353a 50%, #091014);
 }
 
+.cover-roads {
+  background:
+    linear-gradient(160deg, rgba(140, 153, 188, 0.16), transparent 38%),
+    linear-gradient(140deg, #0a1016, #17212a 48%, #06090d);
+}
+
 .book-cover h3 {
   margin: 0;
   font-size: clamp(2rem, 3vw, 2.75rem);
@@ -1155,7 +1161,7 @@ body[data-theme="light"] .portrait-overlay-soft {
 }
 
 .upcoming-grid {
-  grid-template-columns: minmax(0, 420px);
+  grid-template-columns: repeat(2, minmax(0, 420px));
 }
 
 .upcoming-book-card {
